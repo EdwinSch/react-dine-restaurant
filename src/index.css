@@ -21,6 +21,13 @@ ul {
 
 /* Variables */
 :root {
+  --beaver: #9e7f66;
+  --cod: #111111;
+  --mirage: #17192b;
+  --ebonyClay: #242b37;
+  --shuttle: #5c6779;
+  --spa: #4c4c4c;
+
   --font: "League Spartan", sans-serif;
   --inspect: solid red 1px;
 }
@@ -29,4 +36,53 @@ ul {
 body {
   font-family: var(--font);
   min-height: 100vh;
+}
+
+/* Typography */
+.heading--xl {
+  font-family: inherit;
+  color: var(--mirage);
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+.heading--lg {
+  font-family: inherit;
+  color: var(--ebonyClay);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+.heading--med {
+  color: var(--mirage);
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+}
+.heading--sm {
+  color: var(--spa);
+  font-family: inherit;
+  font-size: 1.063rem;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+}
+
+.text--md {
+  color: var(--ebonyClay);
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+.text--sm {
+  color: var(--mirage);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
 }

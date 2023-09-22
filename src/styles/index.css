@@ -1,3 +1,6 @@
+/* Import */
+@import "../styles/component-styles.css";
+
 /* Reset & Utilities */
 *,
 ::after,
@@ -27,6 +30,7 @@ ul {
   --ebonyClay: #242b37;
   --shuttle: #5c6779;
   --spa: #4c4c4c;
+  --white: #ffffff;
 
   --font: "League Spartan", sans-serif;
   --inspect: solid red 1px;
@@ -36,6 +40,7 @@ ul {
 body {
   font-family: var(--font);
   min-height: 100vh;
+  background-color: green;
 }
 
 /* Typography */

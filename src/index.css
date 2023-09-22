@@ -1,0 +1,32 @@
+/* Reset & Utilities */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Variables */
+:root {
+  --font: "League Spartan", sans-serif;
+  --inspect: solid red 1px;
+}
+
+/* Index Styles */
+body {
+  font-family: var(--font);
+  min-height: 100vh;
+}

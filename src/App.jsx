@@ -1,12 +1,20 @@
-import Button from "./components/Button/Button";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+import { Homepage, ReservationPage } from "./pages";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage />,
+  },
+  {
+    path: "/reservation",
+    element: <ReservationPage />,
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <Button variant="btn-dark" label="button" type="button" />
-      <Button variant="btn-light" label="button" type="button" />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

@@ -1,0 +1,35 @@
+.incentive-container {
+  padding: 88px var(--paddingDefault);
+  background-image: url(../../assets/homepage/ready-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Response Tablet */
+  @media only screen and (max-width: 1000px) {
+    padding: 80px 88px 64px 88px;
+    background-image: url(../../assets/homepage/ready-bg-tablet@2x.jpg);
+    flex-direction: column;
+    gap: 24px;
+
+    & h4 {
+      text-align: center;
+    }
+  }
+
+  /* Response Mobile */
+  @media only screen and (max-width: 450px) {
+    padding: 85px 65px 80px 65px;
+    background-image: url(../../assets/homepage/ready-bg-mobile@2x.jpg);
+    gap: 20px;
+
+    & h4 {
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -0.4px;
+    }
+  }
+}

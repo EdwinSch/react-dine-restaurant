@@ -1,4 +1,5 @@
 .btn-light {
+  min-width: 245px;
   padding: 25px 48px;
   border: 1px solid var(--white);
   background-color: transparent;
@@ -12,6 +13,10 @@
   transition: 250ms ease;
 
   &:hover {
+    background-color: var(--white);
+    color: var(--mirage);
+  }
+  &:active {
     background-color: var(--white);
     color: var(--mirage);
   }
@@ -31,6 +36,10 @@
   transition: 250ms ease;
 
   &:hover {
+    background-color: var(--cod);
+    color: var(--white);
+  }
+  &:active {
     background-color: var(--cod);
     color: var(--white);
   }

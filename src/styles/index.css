@@ -65,6 +65,15 @@ main {
   line-height: 48px;
   letter-spacing: -0.5px;
 }
+.heading--lg--invert {
+  font-family: inherit;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
 .heading--med {
   color: var(--mirage);
   font-family: inherit;

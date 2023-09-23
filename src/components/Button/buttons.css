@@ -1,6 +1,7 @@
 .btn-light {
   min-width: 245px;
-  padding: 25px 48px;
+  height: 64px;
+  padding: 0 48px;
   border: 1px solid var(--white);
   background-color: transparent;
   color: var(--white);
@@ -23,7 +24,9 @@
 }
 
 .btn-dark {
-  padding: 25px 48px;
+  min-width: 245px;
+  height: 64px;
+  padding: 0 48px;
   border: 1px solid var(--cod);
   background-color: transparent;
   color: var(--cod);

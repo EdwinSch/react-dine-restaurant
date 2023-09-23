@@ -1,8 +1,12 @@
-const Button = ({ variant, type, label }) => {
+import { Link } from "react-router-dom";
+
+const Button = ({ variant, type, label, page }) => {
   return (
-    <button className={variant} type={type}>
-      {label}
-    </button>
+    <Link to={page}>
+      <button className={variant} type={type}>
+        {label}
+      </button>
+    </Link>
   );
 };
 

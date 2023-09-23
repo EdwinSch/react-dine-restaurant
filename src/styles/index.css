@@ -32,6 +32,7 @@ ul {
   --spa: #4c4c4c;
   --white: #ffffff;
 
+  --paddingDefault: 0px 165px;
   --font: "League Spartan", sans-serif;
   --inspect: solid red 1px;
 }

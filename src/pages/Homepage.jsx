@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 
 const Homepage = () => {
   return (
-    <>
+    <main>
       <LogoHeader />
       <h2>Homepage</h2>
       <Button
@@ -15,7 +15,7 @@ const Homepage = () => {
         type="button"
       />
       <Footer />
-    </>
+    </main>
   );
 };
 

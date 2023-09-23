@@ -32,7 +32,7 @@ ul {
   --spa: #4c4c4c;
   --white: #ffffff;
 
-  --paddingDefault: 0px 165px;
+  --paddingDefault: 165px;
   --font: "League Spartan", sans-serif;
   --inspect: solid red 1px;
 }
@@ -41,6 +41,11 @@ ul {
 body {
   font-family: var(--font);
   min-height: 100vh;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 /* Typography */

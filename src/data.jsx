@@ -2,7 +2,7 @@ import salmon from "./assets/homepage/salmon-mobile@2x.jpg";
 import mignon from "./assets/homepage/beef-mobile@2x.jpg";
 import mousse from "./assets/homepage/chocolate-mobile@2x.jpg";
 
-export const menu = [
+export const menuData = [
   {
     id: 1,
     img: salmon,

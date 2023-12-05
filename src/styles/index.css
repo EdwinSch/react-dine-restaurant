@@ -98,6 +98,13 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
+.text--md--invert {
+  color: var(--white);
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+}
 .text--sm {
   color: var(--mirage);
   font-family: inherit;

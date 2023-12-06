@@ -16,4 +16,37 @@
     width: 445px;
     margin-bottom: 40px;
   }
+
+  @media only screen and (max-width: 1100px) {
+    text-align: center;
+    background-image: url(../../assets/homepage/hero-bg-tablet@2x.jpg);
+    background-position: top;
+    padding: 380px 100px 0 100px;
+    height: 992px;
+
+    & h1 {
+      margin: 40px 0 20px 0;
+    }
+
+    & p {
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    background-image: url(../../assets/homepage/hero-bg-mobile@2x.jpg);
+    padding: 260px 25px 0 25px;
+    height: 750px;
+
+    & h1 {
+      font-size: 2rem;
+      letter-spacing: -1px;
+      line-height: 40px;
+    }
+
+    & p {
+      font-size: 1rem;
+      line-height: 26px;
+    }
+  }
 }

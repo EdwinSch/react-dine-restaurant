@@ -6,14 +6,66 @@
 
   .text-wrapper {
     width: 445px;
+    position: relative;
+
+    .pattern-wrapper {
+      width: 100%;
+      text-align: left;
+      position: absolute;
+      top: -55px;
+    }
 
     & h4 {
       margin-bottom: 27px;
     }
   }
 
+  @media only screen and (max-width: 1340px) {
+    padding: 142px 98px 98px 98px;
+    flex-direction: column;
+    justify-content: center;
+
+    .text-wrapper {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 54px;
+
+      .pattern-wrapper {
+        text-align: center;
+        top: -40px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding: 115px 25px 98px 25px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .text-wrapper {
+      & h4 {
+        font-size: 2rem;
+        line-height: 40px;
+        letter-spacing: -0.4px;
+        margin-bottom: 13px;
+      }
+
+      & p {
+        font-size: 1rem;
+        line-height: 26px;
+      }
+    }
+  }
+
   .menu-items-wrapper {
     width: 540px;
+
+    @media only screen and (max-width: 1340px) {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     .menu-item {
       display: flex;
@@ -37,7 +89,7 @@
       & h5 {
         margin-bottom: 5px;
         color: var(--white);
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.25px;
@@ -49,7 +101,28 @@
         font-weight: 400;
         line-height: 26px;
       }
+
+      /* mobile query */
+      @media only screen and (max-width: 900px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 36px;
+
+        & hr {
+          display: none;
+        }
+        .food-img {
+          width: 327px;
+          height: 245px;
+
+          @media only screen and (max-width: 400px) {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
     }
+
     .menu-item:nth-child(1) {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       padding-bottom: 24px;
@@ -57,6 +130,7 @@
     .menu-item:nth-child(2) {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       margin: 24px 0;
+      padding-bottom: 24px;
     }
     .menu-item:nth-child(3) {
       margin-top: 24px;

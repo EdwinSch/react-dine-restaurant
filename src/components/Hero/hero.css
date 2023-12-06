@@ -1,0 +1,19 @@
+.hero-container {
+  border: var(--inspect);
+  height: 820px;
+  width: 100%;
+  padding: 65px var(--paddingDefault);
+  background-image: url(../../assets/homepage/hero-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+  & h1 {
+    margin: 150px 0 10px 0;
+  }
+
+  & p {
+    width: 445px;
+    margin-bottom: 40px;
+  }
+}

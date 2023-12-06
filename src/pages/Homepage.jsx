@@ -1,4 +1,4 @@
-import LogoHeader from "../components/LogoHeader/LogoHeader";
+import Hero from "../components/Hero/Hero";
 import Menu from "../components/Menu/Menu";
 import Incentive from "../components/Incentive/Incentive";
 import Footer from "../components/Footer/Footer";
@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 const Homepage = () => {
   return (
     <main>
-      <LogoHeader />
+      <Hero />
       <Menu />
       <Incentive />
       <Footer />

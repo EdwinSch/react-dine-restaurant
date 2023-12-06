@@ -56,7 +56,7 @@ main {
 /* Typography */
 .heading--xl {
   font-family: inherit;
-  color: var(--mirage);
+  color: var(--white);
   font-size: 5rem;
   font-weight: 300;
   line-height: 80px;
